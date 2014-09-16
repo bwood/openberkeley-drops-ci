@@ -29,6 +29,7 @@ dependencies[] = pm_existing_pages
 dependencies[] = strongarm
 dependencies[] = taxonomy
 dependencies[] = token
+dependencies[] = transliteration
 dependencies[] = views
 dependencies[] = views_autocomplete_filters
 dependencies[] = views_content
@@ -71,9 +72,10 @@ features[variable][] = panelizer_taxonomy_term:panopoly_categories_allowed_layou
 features[variable][] = panelizer_taxonomy_term:panopoly_categories_allowed_types_default
 features[views_view][] = panopoly_taxonomy
 
-; Information added by Drupal.org packaging script on 2014-03-08
-version = "7.x-1.2"
+
+; Information added by drush on 2014-09-05
+version = "7.x-1.11+5-dev"
 core = "7.x"
 project = "panopoly_core"
-datestamp = "1394300629"
+datestamp = "1409955668"
 

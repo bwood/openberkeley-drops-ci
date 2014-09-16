@@ -1,0 +1,12 @@
+imports:
+    - behat.common.yml
+
+default:
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: http://localhost:8082
+    Drupal\DrupalExtension\Extension:
+      drupal:
+        drupal_root: "/path/to/drupal/root"
+      drush:
+        alias: 'local'
